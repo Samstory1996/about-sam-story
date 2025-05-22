@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon"href="samlogo.png"> <title>Sampath - Editor & UI/UX Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> </head>
+<body>
+    <header>
+        <nav class="container">
+            <img src="samlogo.png" alt="logo"style="width: 100px; height: 50px;">
+
+            <a href="insta.jpg" class="icon">sampath</a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm [sampath]</h1>
+                    <p class="tagline">Ca Video Editor and UI/UX Designer passionate about crafting engaging narratives and intuitive digital experiences. I bring stories to life visually and design seamless interactions that delight users."</p>
+                    <p>I'm a passionate **Editor** who brings clarity and impact to written content, and a dedicated **UI/UX Designer** focused on creating user-centric and aesthetically pleasing digital products.</p>
+                    <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                </div>
+                <div class="hero-image">
+                    <img src="insta.jpg" alt="Your professional photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>This is good for an "About Me" section where you have a bit more space.
+
+"Hi, I'm [sampath], a creative professional blending the art of Video Editing with the science of UI/UX Design. I thrive on transforming complex ideas into clear, compelling video content and intuitive, user-friendly digital products. My goal is to deliver impactful experiences, whether through a captivating edit or a flawlessly designed interface."</p>
+                    <p>My journey into UI/UX design was driven by a desire to bridge the gap between complex ideas and intuitive user experiences. I thrive on user research, wireframing, prototyping, and creating designs that are not only beautiful but also highly functional and accessible. I believe good design is invisible, allowing users to achieve their goals effortlessly.</p>
+                    <p>
+                        I'm proficient in tools like <br>
+                        <span style="display: inline-flex; gap: 10px; vertical-align: middle;">
+                            <a href="#" onclick="alert('DaVinci Resolve');" class="tool-icon">
+                                <img src="davinci-resolve-logo.png" alt="DaVinci Resolve logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('Figma');" class="tool-icon">
+                                <img src="pngwing.com (1).png" alt="Figma logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('Adobe Premiere Pro');" class="tool-icon">
+                                <img src="pr.png" alt="Premiere Pro logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('Adobe Photoshop');" class="tool-icon">
+                                <img src="ps.png" alt="Photoshop logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('Adobe Illustrator');" class="tool-icon">
+                                <img src="ai.png" alt="Illustrator logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('Canva');" class="tool-icon">
+                                <img src="pngwing.com (2).png" alt="Canva logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('HTML5');" class="tool-icon">
+                                <img src="html.png" alt="HTML5 logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('JavaScript');" class="tool-icon">
+                                <img src="js.png" alt="JavaScript logo" class="touch-animate">
+                            </a>
+                            <a href="#" onclick="alert('CSS3');" class="tool-icon">
+                                <img src="css.png" alt="CSS3 logo" class="touch-animate">
+                            </a>
+                        </span><br>
+
+                        <style>
+                        .touch-animate {
+                            width: 40px;
+                            height: 40px;
+                            object-fit: contain;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            transition: transform 0.2s cubic-bezier(.4,2,.6,1), box-shadow 0.2s;
+                        }
+                        .tool-icon:active .touch-animate,
+                        .touch-animate:active {
+                            transform: scale(1.2) rotate(-8deg);
+                            box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+                        }
+                        .tool-icon:hover .touch-animate {
+                            transform: scale(1.1);
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+                        }
+                        </style>
+                        <script>
+                        document.querySelectorAll('.touch-animate').forEach(function(img) {
+                            img.addEventListener('touchstart', function() {
+                                img.classList.add('touched');
+                                img.style.transform = 'scale(1.2) rotate(-8deg)';
+                                img.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
+                            });
+                            img.addEventListener('touchend', function() {
+                                img.classList.remove('touched');
+                                img.style.transform = '';
+                                img.style.boxShadow = '';
+                            });
+                        });
+                        </script>
+                        MS Word, Google Docs, Grammarly and design software such as Figma, Adobe Premiere Pro, DaVinci, Photoshop, Illustrator.
+                    </p>
+                    <a href="J.pdf" target="_blank" class="btn tertiary-btn">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="5881573.jpg" alt="Editing Project 1">
+                        <h3>[UI/UX] Mobile App Redesign</h3>
+                        <p class="category">UI/UX Design</p>
+                        <p>A case study on improving the user flow and visual appeal of a popular e-commerce mobile application.</p>
+                        <a href="project-1-detail.html" class="btn small-btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="samlogo.png" alt="Editing Project 2">
+                        <h3>[Editing] Blog Series for Tech Startup</h3>
+                        <p class="category">Content Editing</p>
+                        <p>Edited and proofread a series of 10 technical blog posts, ensuring consistency and readability for a broad audience.</p>
+                        <a href="project-2-detail.html" class="btn small-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="5757453.jpg" alt="UI/UX Project 3">
+                        <h3>[UI/UX] Website Information Architecture</h3>
+                        <p class="category">UX Research & Design</p>
+                        <p>Conducted user research and designed the information architecture for a new educational platform.</p>
+                        <a href="project-3-detail.html" class="btn small-btn">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>My Expertise</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-edit"></i>
+                        <h3>Copyediting & Proofreading</h3>
+                        <p>Refining grammar, spelling, punctuation, and style for clarity and impact.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-object-ungroup"></i>
+                        <h3>UI Design</h3>
+                        <p>Crafting intuitive and visually appealing user interfaces for web and mobile applications.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-user-friends"></i>
+                        <h3>UX Research & Strategy</h3>
+                        <p>Conducting user research, creating personas, and mapping user journeys to inform design decisions.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Content Strategy & Development (Editing Focus)</h3>
+                        <p>Advising on content structure and ensuring the overall message aligns with objectives.</p>
+                    </div>
+                     <div class="service-item">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3>Wireframing & Prototyping</h3>
+                        <p>Building low to high-fidelity prototypes to test and iterate on design concepts.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Brand & Style Guide Adherence</h3>
+                        <p>Ensuring all content and designs align with established brand guidelines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section">
+            <div class="container">
+                <h2>Ready to Collaborate?</h2>
+                <p>Whether you need pristine copy or a delightful user experience, I'm here to help bring your vision to life.</p>
+                <a href="9080956029" class="btn primary-btn">Let's Talk</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                <h1> class="footer-name"J.Sampath</h1>
+            
+                    <h3>J.sampath</h3>
+                    <p>Editor & UI/UX Designer</p>
+                    <p>&copy; <span id="current-year"></span> All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sampath-sam-238315349/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_sam_story__/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="http://127.0.0.1:5500/samstory.html" target="_blank" aria-label="Behance"><i class="fab fa-facebook"></i></a>
+                    <a href="https://medium.com/@yourprofile" target="_blank" aria-label="Medium"><i class="fab fa-medium"></i></a>
+                    </div>
+                <div class="footer-contact" id="contact">
+                    <h3>Contact Me</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sampathsam275@gmail.com">sampathsam275@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:9080956029">+91 9080956029</a></p>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+       
